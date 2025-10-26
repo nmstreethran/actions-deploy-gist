@@ -44,20 +44,20 @@ jobs:
           INPUT_TOKEN: ${{ secrets.TOKEN }}
         run: npm run all
 
-  create-gist:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v5
+  # create-gist:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/checkout@v5
 
-      - name: Test action
-        id: deploy-gist
-        uses: ./
-        with:
-          token: ${{ secrets.TOKEN }}
-          file_path: ./__tests__/foo.bar
+  #     - name: Test action
+  #       id: deploy-gist
+  #       uses: ./
+  #       with:
+  #         token: ${{ secrets.TOKEN }}
+  #         file_path: ./__tests__/foo.bar
 
-      - name: Dump action output
-        run: echo "${{ steps.deploy-gist.outputs.gist_id }}"
+  #     - name: Dump action output
+  #       run: echo "${{ steps.deploy-gist.outputs.gist_id }}"
 
   with-all-inputs:
     runs-on: ubuntu-latest
