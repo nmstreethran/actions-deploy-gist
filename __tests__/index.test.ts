@@ -29,7 +29,7 @@ test('run', () => {
     }
   }
 
-  process.env.INPUT_GIST_ID = 'e885afa349a0e5d1cfb408e46d6a37bc'
+  process.env.INPUT_GIST_ID = 'c53238c34fb3325526790acbbb6b3a98'
   process.env.INPUT_GIST_FILE_NAME = 'foo.bar'
   process.env.INPUT_FILE_PATH = '__tests__/foo.bar'
   run()

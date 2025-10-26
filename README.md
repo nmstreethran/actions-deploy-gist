@@ -39,7 +39,7 @@ Personal access token for updating gist.
 
 #### `gist_id`
 
-Id portion from the gist url, e.g. `https://gist.github.com/exuanbo/`**`e885afa349a0e5d1cfb408e46d6a37bc`**.
+Id portion from the gist url, e.g. `https://gist.github.com/nmstreethran/`**`c53238c34fb3325526790acbbb6b3a98`**.
 
 #### `gist_description` (optional)
 

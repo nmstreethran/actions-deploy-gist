@@ -68,7 +68,7 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.TOKEN }}
-          gist_id: e885afa349a0e5d1cfb408e46d6a37bc
+          gist_id: c53238c34fb3325526790acbbb6b3a98
           gist_description: "foo bar"
           gist_file_name: foo.bar
           file_path: ./__tests__/foo.bar
@@ -83,6 +83,6 @@ jobs:
         uses: ./
         with:
           token: ${{ secrets.TOKEN }}
-          gist_id: e885afa349a0e5d1cfb408e46d6a37bc
+          gist_id: c53238c34fb3325526790acbbb6b3a98
           file_path: ./__tests__/dummy.pdf
           file_type: binary
