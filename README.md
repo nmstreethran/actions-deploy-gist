@@ -9,9 +9,9 @@ This is a Github Action to deploy file to Github Gist.
 ## Quick start
 
 ```yml
-- uses: actions/checkout@v3
+- uses: actions/checkout@v5
 - name: Deploy
-  uses: exuanbo/actions-deploy-gist@v1
+  uses: nmstreethran/actions-deploy-gist@main
   with:
     token: ${{ secrets.TOKEN }}
     gist_id: from_gist_url

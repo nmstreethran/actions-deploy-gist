@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Dump GitHub context
         env:
@@ -23,7 +23,7 @@ jobs:
         run: echo "::set-output name=NVMRC::$(cat .nvmrc)"
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
           cache: npm
@@ -47,7 +47,7 @@ jobs:
   create-gist:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Test action
         id: deploy-gist
@@ -62,7 +62,7 @@ jobs:
   with-all-inputs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Test action
         uses: ./
@@ -77,7 +77,7 @@ jobs:
   with-binary-file:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
 
       - name: Test action
         uses: ./
