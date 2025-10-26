@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs'
 import { join } from 'path'
-import { nanoid } from 'nanoid/async'
+import { nanoid } from 'nanoid'
 
 // https://github.com/actions/toolkit/blob/bc4be505973a6a7344bfd71e1b32f77e1755310c/packages/cache/src/internal/cacheUtils.ts#L13
 export async function createTempDirectory(): Promise<string> {
