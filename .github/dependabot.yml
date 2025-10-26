@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    # Dependabot will check for updates to dependencies declared in package.json
+    # and update package.json + package-lock.json as needed.
+    schedule:
+      interval: "daily"
+      # day: "monday"
+      # You can switch to "daily" or "monthly" if you prefer a different cadence.
+    open-pull-requests-limit: 5
+    # target-branch is optional — set to the branch you use for default development.
+    # If your primary branch is "master" change this value accordingly.
+    target-branch: "main"
+    labels:
+      - "dependencies"
+      - "dependabot"
+    # You can add `allow` / `ignore` rules here if you want to scope updates.
