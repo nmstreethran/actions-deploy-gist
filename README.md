@@ -1,10 +1,9 @@
 # Deploy to Gist
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/exuanbo/actions-deploy-gist.svg)](https://github.com/exuanbo/actions-deploy-gist/releases)
-[![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/exuanbo/actions-deploy-gist/test/main.svg?event=push)](https://github.com/exuanbo/actions-deploy-gist/actions?query=workflow%3Atest)
+[![CI](https://github.com/nmstreethran/actions-deploy-gist/actions/workflows/ci.yml/badge.svg)](https://github.com/nmstreethran/actions-deploy-gist/actions/workflows/ci.yml)
 [![libera manifesto](https://img.shields.io/badge/libera-manifesto-lightgrey.svg)](https://liberamanifesto.com)
 
-This is a Github Action to deploy file to Github Gist.
+This is a GitHub Action to deploy file to GitHub Gist.
 
 ## Quick start
 
@@ -24,7 +23,7 @@ This is a Github Action to deploy file to Github Gist.
 ### Prep work
 
 1. Create a gist (public or secret) if you don't have one.
-1. Generate a new [Personal access token](https://github.com/settings/tokens/). Only the `gist` scope is needed.
+1. Generate a new [personal access token](https://github.com/settings/tokens/). Only the `gist` scope is needed.
 
 ### Project setup
 
@@ -35,11 +34,11 @@ This is a Github Action to deploy file to Github Gist.
 
 #### `token`
 
-Personal access token for updating gist.
+Personal access token for updating Gist.
 
 #### `gist_id`
 
-Id portion from the gist url, e.g. `https://gist.github.com/nmstreethran/`**`c53238c34fb3325526790acbbb6b3a98`**.
+ID portion from the Gist URL, e.g. `https://gist.github.com/nmstreethran/`**`c53238c34fb3325526790acbbb6b3a98`**.
 
 #### `gist_description` (optional)
 
@@ -47,7 +46,7 @@ Description of the gist.
 
 #### `gist_file_name` (optional)
 
-Name of the file to be added in the gist. If not provided, the original file name from `file_path` will be used.
+Name of the file to be added in the Gist. If not provided, the original file name from `file_path` will be used.
 
 #### `file_path`
 
@@ -55,8 +54,8 @@ Relative to the current repo's root directory, e.g. `dist/foo.bar`.
 
 #### `file_type` (optional)
 
-Default to `text`. It should be set to `binary` if the file is image, pdf, etc.
+Default to `text`. It should be set to `binary` if the file is an image, PDF, etc.
 
 ## License
 
-[MIT License](https://github.com/exuanbo/actions-deploy-gist/blob/main/LICENSE) © 2021 [Exuanbo](https://github.com/exuanbo)
+[MIT License](https://github.com/exuanbo/actions-deploy-gist/blob/main/LICENSE)
