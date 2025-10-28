@@ -1,9 +1,4 @@
 module.exports = {
-  globals: {
-    'ts-jest': {
-      isolatedModules: true
-    }
-  },
   modulePathIgnorePatterns: ['<rootDir>/lib'],
   preset: 'ts-jest',
   testEnvironment: 'node',
