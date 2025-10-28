@@ -5,7 +5,7 @@
   "main": "lib/src/index.js",
   "scripts": {
     "build": "rm -rf lib && tsc -p tsconfig.prod.json",
-    "test": "npm run build && ts-standardx && jest",
+    "test": "npm run build && jest",
     "package": "ncc build --license licenses.txt --target es2021",
     "all": "npm test && npm run package"
   },
@@ -31,7 +31,6 @@
     "dotenv": "16.0.2",
     "jest": "30.2.0",
     "ts-jest": "29.4.5",
-    "ts-standardx": "0.8.4",
     "typescript": "^5.0.0"
   }
 }

@@ -1,5 +1,5 @@
 name: "Deploy to Gist"
-description: "📌 Deploy file to Github Gist."
+description: "📌 Deploy file to GitHub Gist."
 author: "Exuanbo"
 branding:
   icon: "upload-cloud"

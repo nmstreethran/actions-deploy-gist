@@ -1,6 +1,6 @@
 import { execSync } from 'child_process'
 import { join } from 'path'
-import dotenv from 'dotenv'
+import * as dotenv from 'dotenv'
 import { author } from '../package.json'
 
 beforeAll(() => {
