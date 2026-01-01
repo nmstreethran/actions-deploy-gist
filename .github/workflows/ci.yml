@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Dump GitHub context
         env:
@@ -49,7 +49,7 @@ jobs:
   # create-gist:
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - uses: actions/checkout@v5
+  #     - uses: actions/checkout@v6
 
   #     - name: Test action
   #       id: deploy-gist
@@ -64,7 +64,7 @@ jobs:
   with-all-inputs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Test action
         uses: ./
@@ -79,7 +79,7 @@ jobs:
   with-binary-file:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Test action
         uses: ./
