@@ -19,8 +19,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "3.0.0",
-    "@actions/github": "9.0.0",
+    "@actions/core": "^4.0.0",
+    "@actions/github": "^10.0.0",
     "nanoid": "5.1.6",
     "simple-git": "3.30.0"
   },
