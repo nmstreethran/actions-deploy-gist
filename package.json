@@ -22,7 +22,7 @@
     "@actions/core": "^1.10.0",
     "@actions/github": "^6.0.0",
     "nanoid": "5.1.6",
-    "simple-git": "3.30.0"
+    "simple-git": "3.32.3"
   },
   "devDependencies": {
     "@types/jest": "30.0.0",
