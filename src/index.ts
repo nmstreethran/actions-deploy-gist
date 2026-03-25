@@ -1,5 +1,5 @@
 import { setOutput, setFailed } from '@actions/core'
-import { getOctokit } from '@actions/github'
+import { getOctokit } from '@actions/github/lib/github'
 import { getActionInput } from './input'
 import type { ActionContext } from './types'
 import { run } from './run'
