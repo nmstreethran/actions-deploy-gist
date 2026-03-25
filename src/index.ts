@@ -1,10 +1,11 @@
 import { setOutput, setFailed } from '@actions/core'
-import { getOctokit } from '@actions/github/lib/github'
 import { getActionInput } from './input'
 import type { ActionContext } from './types'
 import { run } from './run'
 
 const main = async (): Promise<void> => {
+  const { getOctokit } = await import('@actions/github')
+
   const input = getActionInput()
   const octokit = getOctokit(input.token)
   const context: ActionContext = {
