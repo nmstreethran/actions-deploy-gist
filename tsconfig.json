@@ -11,6 +11,7 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "outDir": "lib",
-    "types": ["node"]
+    "types": ["node"],
+    "rootDir": "."
   }
 }
