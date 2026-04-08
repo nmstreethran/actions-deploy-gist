@@ -8,7 +8,7 @@ This is a GitHub Action to deploy file to GitHub Gist.
 ## Quick start
 
 ```yml
-- uses: actions/checkout@v5
+- uses: actions/checkout@v6
 - name: Deploy
   uses: nmstreethran/actions-deploy-gist@main
   with:
