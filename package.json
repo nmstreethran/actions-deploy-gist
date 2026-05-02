@@ -32,7 +32,7 @@
     "glob": "^13.0.6",
     "jest": "30.2.0",
     "ts-jest": "29.4.9",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   },
   "overrides": {
     "undici": "^6.23.1"
