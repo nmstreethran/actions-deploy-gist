@@ -21,7 +21,7 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^9.1.1",
-    "nanoid": "5.1.7",
+    "nanoid": "5.1.11",
     "simple-git": "3.36.0"
   },
   "devDependencies": {
