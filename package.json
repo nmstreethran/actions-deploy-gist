@@ -29,7 +29,7 @@
     "@types/node": "^26.6.5",
     "@vercel/ncc": "0.44.1",
     "dotenv": "17.4.2",
-    "glob": "^13.0.6",
+    "glob": "^14.0.3",
     "typescript": "<7",
     "handlebars": ">=4.7.10",
     "@simple-git/argv-parser": ">=2.0.1",
